@@ -1,5 +1,14 @@
 <p align="center"><img width="576" alt="Hfest-Logo-2-Color-Void@2x" src="https://user-images.githubusercontent.com/72184293/193453787-7815c591-e093-4d72-9522-39cf823f60df.png"></p>
 
+<h3 align="center">
+    <a href="https://hacktoberfest.com/">
+        Join Hacktoberfest 2021 From Here 
+    </a>
+</h3>
+
+<h4 align="center">Support open source throughout October!</h4>
+<p align="center">Hacktoberfest encourages participation in the open source community, which grow</p>
+
 <h1>PARTICIPATION</h1>
 <section id="values" class="section__StyledSection-sc-1cz1z8m-0 cxNnGP">
 <div class="contents sub_content">
