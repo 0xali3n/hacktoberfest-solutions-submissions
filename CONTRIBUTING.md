@@ -18,6 +18,7 @@ SHORT-TERM ACTION, LONG-TERM IMPACT
  	<li>You need to submit both Questions &amp; answers with examples.</li>
  	<li>To know about the Hacktoberfest Event visit the website below (End).</li>
 </ul>
+ 
 <h2 dir="auto">Steps For Contribution</h2>
 <ol>
  	<li>Fork this repo</li>
@@ -27,6 +28,9 @@ SHORT-TERM ACTION, LONG-TERM IMPACT
  	<li>Submit your solution with your question</li>
  	<li>Make your 1st successful pull request</li>
 </ol>
+ <p align="center"><img src="https://user-images.githubusercontent.com/72184293/193462051-2ad7f0f5-74a4-4750-b2c8-efd843764f86.png"></p>
+ <p align="center"><img src="https://user-images.githubusercontent.com/72184293/193463088-76155e81-b986-4b86-8c51-5a6137eb6ca2.png"></p>
+ <p align="center"><img src="https://user-images.githubusercontent.com/72184293/193463115-48e05a71-89dd-4c2f-a341-8768278a2866.png"></p>
 <div>
 <div class="content__StyledDiv-sc-1ncwaz-0 kdaPkt">
 
