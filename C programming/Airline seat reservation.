@@ -150,7 +150,7 @@ int main(void)
 	return 0;
 }
                                                   
-
+/*
 ----> SAMPLE OUTPUT <----
 
 
@@ -190,3 +190,4 @@ Pick a seat:
 
 ...Program finished with exit code 0
 Press ENTER to exit console.
+*/
