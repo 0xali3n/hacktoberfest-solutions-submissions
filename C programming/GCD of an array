@@ -1,0 +1,52 @@
+Given an array of 'N' integers compute GCD of an array. GCD of an array is computed as follows:
+
+GCD(a[])=GCD(a[0], a[1], a[2], .... a[n-1])
+
+Sample Input
+5
+3 6 9 12 15
+Sample Output
+3
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+#define MAX 100
+void read_array(int a[],int n);
+int gcd_array(int c,int d);
+int main() {
+
+    int n,a[MAX],g=0,j=0;
+    scanf("%d",&n);
+    read_array(a,n);
+    g=gcd_array(a[0],a[1]);
+    if(n<=0)
+       {
+         printf("Invalid\n");         
+       }
+    else{
+        
+    
+    for(j=0;j<n;j++)
+    {
+        g=gcd_array(g,a[j]);
+    }
+        printf("%d",g);
+    }
+    return 0;
+}
+void read_array(int a[],int n)
+{
+    int i=0;
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+}
+int gcd_array(int c,int d)
+{
+    if(c%d==0)
+    return d;
+    return gcd_array(d,c%d);
+}
