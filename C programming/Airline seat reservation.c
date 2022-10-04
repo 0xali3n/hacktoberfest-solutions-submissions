@@ -1,3 +1,4 @@
+/*
 QUESTION : 
 
 Design a Simple Airline Seat Reservation System using C programming
@@ -11,7 +12,7 @@ Constrains :  Total number of seats available for each class are equal and the t
 
 CODE:
 
-
+*/
 #include<stdio.h>
 #include<math.h>
 #include<string.h>
