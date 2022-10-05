@@ -5,6 +5,16 @@
 
 // Given a characters array letters that is sorted in non-decreasing order and a character target, return the smallest character in the array that is larger than target.
 
+// Example 1:
+
+// Input: letters = ["c","f","j"], target = "a"
+// Output: "c"
+
+// Example 2:
+
+// Input: letters = ["c","f","j"], target = "c"
+// Output: "f"
+
 // code
 class SmallestLetterGreaterThanTarget {
     public char nextGreatestLetter(char[] letters, char target) {
