@@ -35,9 +35,9 @@ void readStructure(struct cricket_player *p,int n)
     for(i=0;i<n;i++) {
       printf("\nEnter Details of Player %d",i+1); 
       printf("\nEnter the Name: "); 
-      scanf("%s",&(p+i)->name);
+      scanf("%s",(p+i)->name);
 printf("Enter the Nationality: ");
-scanf("%s",&(p+i)->nationality);
+scanf("%s",(p+i)->nationality);
 printf("Enter the Ranking: ");
 scanf("%d",&(p+i)->ranking);
 printf("Enter the Total Runs: ");
@@ -61,7 +61,7 @@ void totalWickets(struct cricket_player *p,int n)
 {
     int i;
     int sum=0;
-    for(i=0;i<n;i++) { sum=sum+(p+i)->no_of_wickets;
+    for(i=0;i<n;i++) { sum+=(p+i)->no_of_wickets;
     }
     printf("\n\nTotal number of wickets = %d\n",sum);
 }
